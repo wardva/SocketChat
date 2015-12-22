@@ -1,0 +1,19 @@
+.navbar.navbar-default.navbar-fixed-top(role='navigation')
+  .container
+    .navbar-header
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      span.navbar-brand LaboApp
+    .navbar-collapse.collapse
+      ul.nav.navbar-nav
+        li(class=active === "home" ? "active" : "")
+          a(href='/') Home
+        li(class=active === "about" ? "active" : "")
+          a(href='/about') About
+        li(class=active === "contact" ? "active" : "")
+          a(href='/contact') Contact
+        li(class=active === "chat" ? "active" : "")
+          a(href='/chat') Chat

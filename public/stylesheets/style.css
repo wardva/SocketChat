@@ -1,0 +1,61 @@
+.wrapper {
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+section.col {
+	padding: 15px;
+}
+
+section.col:first-child {
+	padding-left: 0px;
+}
+
+section.col:last-child {
+	padding-right: 0px;
+}
+
+ul#users {
+	padding-left: 0px;
+	margin-bottom: 20px;
+}
+
+ul#users > li {
+	padding-left: 15px;
+	list-style-type: none;
+	color: black;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+}
+
+ul#users > li > a {
+	color: black;
+}
+
+.inner-block {
+	padding: 10px;
+	background-color: LightGray;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.inner-block > h3 {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid darkGray;
+}
+
+.message {
+
+}
+
+.message > .from {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.message > .text {
+
+}
